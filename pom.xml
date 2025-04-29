@@ -45,7 +45,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>org.hspconsortium.sandbox</groupId>
+     <artifactId>hspc-sandbox-manager</artifactId>
+     <version>0.1</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
